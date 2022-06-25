@@ -9,21 +9,58 @@
 </head>
 <style>
     body{
-        background-image: url("back1.jpg");
+        background-color: rgba(0, 0, 0, 0.688);
+        /* background-image: url(bg12.jpg); */
         height: 100%;
         width: 95%;
         text-align: center;
-        
+
+    }
+    input{
+        text-align: center;
+        position: relative;
+        top: 50%;
+    }
+    #redd{
+        background-color: white;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    #password{
+        color: brown;
+        background-color: rgb(140, 208, 254);
+        height: 20%;
+        width: 30%;
+        margin: 10px;
+        padding: 20px;
+        border-radius: 15px;
+        border: none;
+    }
+    #email{
+        color: brown;
+        background-color: rgb(140, 208, 254);
+        height: 20%;
+        width: 30%;
+        margin: 10px;
+        padding: 20px;
+        border-radius: 15px;
+        border: none;
+    }
+    #btn{
+        background-color: rgb(147, 192, 147);
+        padding: 10px;
+        border: none;
+        border-radius: 20px;
     }
 </style>
     <body>
-       <div class="">
-        <input type="email" class="" id="email"><br>
-        <input type="password" id="password"><br>
-        <button onclick="see()">Sign In</button><br>
-        <div id="re"></div>
-      
+       <div id="redd">
+        <input type="email" class="" id="email" placeholder="Input your email"><br>
+        <input type="password" id="password" placeholder="Input Your password"><br>
+        <button onclick="see()" id="btn">Sign In</button><br>  
        </div>
+       <div id="re"></div>
+      
         <script src="script.js"></script>
     </body>
 </html>

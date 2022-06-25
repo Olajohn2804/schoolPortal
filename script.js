@@ -3,7 +3,7 @@ var allStudents = []
 function add(){
     if(localStorage.localPerson){
         // allStudents = JSON.parse(localStorage.localPerson)
-     var allStudents = JSON.parse(localStorage.localPerson)
+        allStudents = JSON.parse(localStorage.localPerson)
         // localStorage.setItem("localPerson",JSON.stringify(allStudents))
     }
 }
@@ -39,7 +39,7 @@ function reg(){
             window.location.href = "sign_in.html"
     }
      localStorage.localPerson = JSON.stringify(allStudents)
-     // localStorage.setItem("localPerson",JSON.stringify(allStudents))
+    //  localStorage.setItem("localPerson",JSON.stringify(allStudents))
 
   
 

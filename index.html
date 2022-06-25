@@ -9,7 +9,7 @@
     </head>
         <style>
             body{
-                background-image: url(back1.jpg);
+                background-image: url(portal.jpg);
                 height: 100%;
                 width: 95%;
                 text-align: center;
@@ -31,10 +31,7 @@
                 padding: 15px;
                 border-radius: 20px;
             }
-            #divv{
-                position: relative;
-                top: 50;
-            }
+            
             #lastName{
                 text-align: center;
             }
@@ -47,13 +44,14 @@
         </style>
     <body onload="add()">
         <div id="divv">
-            <h1>SCHOOL PORTAL</h1>
+            <marquee><h1>WELCOME TO YOUR SCHOOL PORTAL</h1></marquee>            
             <input type="text" id="firstNam" placeholder="FIRSTNAME" required minlength="4" maxlength="12"><br>
         <input type="text" id="lastNam" placeholder="LASTNAME" required minlength="4" maxlength="12"><br>
         <input type="email" id="eMail" placeholder="E-MAIL" required minlength="4" ><br>
         <input type="number" id="ag" placeholder="AGE" required minlength="4" maxlength="12"><br>
         <input type="password" id="passWord" placeholder="PASSWORD" required minlength="4" maxlength="12"><br>
-        <button onclick="reg()">SIGN UP</button>
+        <button onclick="reg()">SIGN UP</button><br>
+        <span>Already signed up? <a href="sign_in.html">click here</a>to go to the log in page</span>
         </div>
         <h6>dev_John</h6>
             

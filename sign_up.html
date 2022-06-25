@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN IN </title>
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css">
+</head>
+    <style>
+        body{
+                background-image: url(portal.jpg);
+                height: 100%;
+                width: 95%;
+                text-align: center;
+                background-position: center;
+                display: block;
+                text-align: center;
+                
+            }
+            input{
+                /* display: block; */
+                border: none;
+                padding: 10px;
+                border-radius: 30px;
+                margin: 10px;
+                text-align: center;
+            }
+            button{
+                border: 2px solid blueviolet;
+                padding: 15px;
+                border-radius: 20px;
+            }
+            
+            #lastName{
+                text-align: center;
+            }
+            h6{
+                text-align: right;
+                color: red;
+                font-size: small;
+                font-family: cursive;
+            }
+
+    </style>
+    <body onload="add()">
+        <!-- <div class="col-2"></div>
+       <div id="redd" class="container col-6">
+        <h1 class="mx-5">SIGN IN</h1>
+        <input type="email" class="col-12 col-md-6 w-50" id="email" placeholder="Input your email"><br>
+        <input type="password" id="password" placeholder="Input Your password"><br>
+        <button onclick="see()" id="btn">Sign In</button><br>  
+       </div>
+       <div id="re"></div>
+       </div>
+       -->
+       <div id="divv">
+        <marquee><h1>WELCOME TO THE SCHOOL PORTAL</h1></marquee>            
+        <input type="text" id="firstNam" placeholder="FIRSTNAME" required minlength="4" maxlength="12"><br>
+    <input type="text" id="lastNam" placeholder="LASTNAME" required minlength="4" maxlength="12"><br>
+    <input type="email" id="eMail" placeholder="E-MAIL" required minlength="4" ><br>
+    <input type="number" id="ag" placeholder="AGE" required minlength="4" maxlength="12"><br>
+    <input type="password" id="passWord" placeholder="PASSWORD" required minlength="4" maxlength="12"><br>
+    <button onclick="reg()">SIGN UP</button><br>
+    <span>Already signed up? <a href="sign_in.html">click here</a>to go to the log in page</span>
+    </div>
+    <h6>dev_John</h6>
+   
+        <script src="script.js"></script>
+    </body>
+</html>
